@@ -1,0 +1,10 @@
+@charset "utf-8";/* CSS Document By Raceman 2009-10-17 17:08*/
+body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,dl,dt,dd{padding:0;margin:0;}
+li{list-style:none;}
+img{border:none;}
+u{text-decoration:none;}
+em{font-style:normal;}
+a{color:#424242;text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());}
+body{font-size:12px;font-family: Arial,Verdana, Helvetica, sans-serif; word-break:break-all;}
+.box{margin:0 auto;text-align:left;width:920px;}
+.clear{clear:both;}

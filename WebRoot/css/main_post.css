@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+.equal {
+display:table;
+border-collapse:separate;
+}
+
+.row {
+display:table-row;
+}
+
+.row div {
+display:table-cell;
+display:
+}
+
+
+/* navigation css */
+ul, li{margin:0; padding:0; list-style:none;}
+
+
+.menu_head{border:0px solid #998675;} 
+.menu_body {width:184px;} 
+.menu_body li{background:#FFF;border-bottom:3px solid #09F;}
+.menu_body li a{color:	#09C; text-decoration:none; padding:10px; display:block;}
+
+#left_navigator{
+	width:20%;
+	float:left;
+	margin:0;
+	padding:0;
+	font-size:16px
+}
+
+.main #posting{
+	float:right;
+	width:80%;
+	position:relative;
+	
+}
+
+.main #posting .text_posting{
+	width:600px;
+	position:relative;
+	left:1px;
+}
+
+.main p{
+
+	left:1px;
+	color: #346283 ;
+	display: block;
+	padding-top: 5px;
+	font-size: 16px;
+	border-bottom: 	10px solid	#999
+	
+
+
+}
+
+.main .posting .posting_form{
+	position:relative;
+	border:none;
+	padding:1px;
+}
+
+
+
+#wysiwyg{
+	resize:none;
+	margin-left:1px;
+	margin-top:1px;
+	width:auto;
+	height:60%;
+}
+
+#markItUp{
+	resize:none;
+	margin-left:1px;
+	margin-top:1px;
+	width:60%;
+	height:60%;
+}

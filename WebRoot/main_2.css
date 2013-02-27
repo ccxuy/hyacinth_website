@@ -1,0 +1,513 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 12px;
+	color: #333;
+	behavior: url(http://static.loli.my/images/ssp.htc);
+	font-family: "微软雅黑",Arial,Helvetica,Verdana,sans-serif;
+	text-align: center;
+	-webkit-text-size-adjust: none;
+	padding: 0;
+	margin: 0;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, select, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+a {
+	outline: none;
+	color: #0187C5;
+	TEXT-DECORATION: none;
+	-webkit-transition: all 0.5s linear;
+	text-decoration: none;
+}
+.wapper {
+	width: 980px; 	
+	background: url(img/logo_top.jpg) no-repeat center top transparent;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+}
+.main{
+	overflow: hidden;
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+	text-align: left;
+	display: block;
+}
+/* 上部LOGO */
+#header_bg {
+	height: 260px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.main .nav_main {
+	height: 40px;
+	position: absolute;
+	overflow: hidden;
+	width: 650px;
+	top: 205px;
+	left: 5px;
+}
+
+//UI组件优先级可能有个CLASS优先级更高,于是使用ID定位
+ #nav_main {
+	height: 40px;
+	position: absolute;
+	overflow: hidden;
+	width: 650px;
+	top: 205px;
+	left: 5px;
+}
+.main .search_bar {
+	height: 40px;
+	position: absolute;
+	overflow: hidden;
+	top: 209px;
+	right: 5px;
+	width: 277px;
+	background: url(img/z.png) no-repeat -583px -38px;
+}
+
+.main .search_bar .search-keyword{
+	float:left;
+	width:179px;
+	color:#000;
+	text-shadow: 0px 0px 2px #fff;
+	border:none;
+	font-weight:700;
+	padding-top:3px;
+	padding-bottom:3px;
+	font-size:16px;
+	margin-top:8px;
+	overflow:hidden;
+	background:none;
+	margin-left:36px
+}
+
+.main .search_bar .search-submit{
+	display:block;
+	float:left;
+	width:57px;
+	cursor:pointer;
+	height:40px;
+	overflow:hidden;
+	border:none;
+	background:url(img/z.png) no-repeat;
+	background-position:-798px -37px;
+}
+
+.main .search_bar .search-submit:hover{background-position:-864px 0px;}
+
+/* z 主要内容容器 */
+.main .z {
+	width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+	display: block;
+}
+.main .z .z-left {
+	width: 720px;
+	float: left;
+	overflow: hidden;
+	background: url(images/m-left-right-bg.gif) no-repeat right top;
+}
+/* 推荐栏 */
+
+
+
+
+.main .z .z-right {
+	width: 250px;
+	overflow: hidden;
+	float: right;
+}
+
+
+/* 右方侧边栏 */
+.main #login_box {
+	margin-bottom:10px;
+	border-bottom:#666;
+}
+.main #reg_dia {
+	z-index:100;
+}
+.bgCover {
+	z-index:90;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.61;
+}
+
+
+
+
+
+/* link button control 连接按钮样式  .login_link, */
+.nav_link {
+	padding: .8em 1em .8em 30px;
+	text-decoration: none;
+	position: relative;
+}
+/*导航内部按钮中 图标样式*/
+.nav_link span.ui-icon {
+	margin: 0 6px 0 0;
+	position: absolute;
+	left: .2em;
+	top: 50%;
+	margin-top: -8px;
+}
+#nav_main nav_link {
+	padding: 30px;
+}
+.main .search_bar #search-input {
+	float: left;
+	width: 179px;
+	color: black;
+	text-shadow: 0px 0px 2px white;
+	border: none;
+	font-weight: 700;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 16px;
+	margin-top: 8px;
+	overflow: hidden;
+	background: none;
+	margin-left: 36px;
+}
+
+
+/* 评论样式 */
+.comment_container div {
+display: block;
+}
+.comment_header {
+padding: 0 0 10px 0;
+}
+#comment_container ol {
+margin: 0;
+padding: 0;
+}
+/* 每个评论 */
+#comment_container ol li {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+/* 评论主体:评论之间间隔 */
+.comment_instance {
+padding: 0;
+margin: 0 0 30px 0;
+}
+.comment_content_odd {
+border: 1px solid #14273D;
+padding: 0 15px;
+}
+.comment_content {
+line-height: 1.3em;
+padding: 0;
+}
+/* 评论人信息 */
+.comment_detail_container .comment_detail_content {
+padding: 0 15px;
+}
+.comment_detail_content p {
+margin-top: 5px;
+padding: 0;
+font-size: 1em;
+}
+.comment_detail_content img {
+	height: 30px;
+	width: 30px;
+	vertical-align: middle;
+}
+/* <div style="clear:both;"></div> 清除 */
+
+/* 内容页样式 */
+.title_box {
+	background: url(images/a_bt_bg.gif) no-repeat 0px 3px;
+	width: 710px;
+	float: left;
+	overflow: hidden;
+}
+.viewbox {
+	background: url(images/a_bt_bg.gif) no-repeat 0px 3px;
+	width: 710px;
+	float: left;
+	overflow: hidden;
+}
+.viewbox h2 {
+	padding-left: 44px;
+	width: 660px;
+	display: block;
+	overflow: hidden;
+	height: 32px;
+	font-size: 26px;
+	color: #999;
+	font-family: "微软雅黑","幼圆","黑体","宋体";
+}
+#titles {
+	font-size: 20px;
+	margin-top: 5px;
+	color: #444;
+	height: 26px;
+}
+.viewbox .tminfo {
+	margin-left: 44px;
+	margin-top: 3px;
+	color: #888;
+}
+.viewbox .tminfo a {
+	color: #888;
+}
+.viewbox .alist {
+	padding-left: 5px;
+	color: #888;
+	line-height: 250%;
+}
+#upper_box {
+	width: 710px;
+	height: 65px;
+	display: block;
+	padding: 0px;
+}
+.uinfo {
+	width: 240px;
+	overflow: hidden;
+	float: right;
+	position: relative;
+	margin-right: 7px;
+}
+.uinfo .u-face {
+	float: left;
+	width: 77px;
+	height: 81px;
+	overflow: hidden;
+	background: url(img/z.png) no-repeat -703px -344px;
+}
+.uinfo .u-face img {
+	width: 73px;
+	height: 73px;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+.uinfo .r-info {
+	margin-top: 5px;
+	float: right;
+	padding-left: 5px;
+	width: 155px;
+	color: #BBB;
+	padding-bottom: 25px;
+	position: relative;
+}
+.uinfo .r-info .r10000 {
+	border-bottom: 1px solid #CCC;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 155px;
+	height: 22px;
+}
+.uinfo .r-info .usname {
+	position: relative;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	width: 145px;
+}
+.sign {
+	max-height: 70px;
+	overflow: hidden;
+}
+.uinfo .r-info .msggo {
+	position: absolute;
+	width: 60px;
+	height: 20px;
+	padding-left: 18px;
+	bottom: 0px;
+	right: 70px;
+	background: url(z.png?3) no-repeat -360px -78px;
+}
+.scontent {
+	background: url(../images/c-bg.gif) no-repeat left top;
+	width: 960px;
+	overflow: hidden;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 7px;
+	margin-right: 100px;
+	clear: both;
+}
+.intro {
+	background: whiteSmoke;
+	padding: 15px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+/* 文章类样式 */
+
+/* 回复式评论 */
+.repbox{
+	position: relative;
+	clear: both;
+	margin: 0 10px;
+	padding:1px;
+}
+.reply::after {
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	content: ".";
+}
+.blueborder_box {
+	border: 1px solid #4FA0D7;
+}
+.repbox .repbox_inner {
+	position:relative;
+	border: 1px solid white;
+	background: #E7F4FF;
+	display: block;
+	overflow:hidden;
+}
+.repbox .repbox_content {
+	text-align: left;
+	padding: 10px;
+}
+.repbox .reply {
+	position: relative;
+	clear: both;
+	margin: 40px 0;
+}
+.reply a {
+	color: #2A69A8;
+	text-decoration: none;
+}
+.replyleft, .replyright {
+	float: left;
+	margin-left: 20px;
+	display: inline;
+	position: relative;
+}
+.reply .replyleft {
+	margin-left: 30px;
+}
+.reply .replycount {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.reply .avatar {
+	float: left;
+	margin-left: 18px;
+	width: 52px;
+	height: 52px;
+}
+.avatar .avatar_shadow {
+	float: left;
+	position: relative;
+	background: url(images/avatar_bg.png) no-repeat left bottom;
+	padding: 0px 0px 2px 2px;
+	display: block;
+}
+.avatar img {
+	position: relative;
+	right: -2px;
+	top: -2px;
+	border: 1px solid #DDD;
+}
+.replymeta {
+	color: #999;
+}
+.replymeta ul.actions {
+	float: right;
+	border-right: 1px solid #999;
+}
+.replymeta ul.actions li {
+	display: inline;
+	border-left: 1px solid #999;
+	padding: 0 10px;
+}
+.replyinner {
+	position: relative;
+	margin-top: 10px;
+	border: 1px solid #88C7F7;
+	background: white;
+}
+.replycontent {
+	padding: 0 20px;
+	width: 690px;
+}
+.replycontent p {
+	margin: 15px 0;
+	line-height: 120%;
+}
+
+
+
+
+.footer {
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: block;
+	overflow: hidden;
+	text-align: left;
+	padding-bottom: 50px;
+}
+.footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	float: left;
+	width: 190px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.footer ul li {
+	line-height: 22px;
+	color: #999;
+	width: 100%;
+}
+.footer ul li b {
+	line-height: 22px;
+	font-size: 12px;
+	display: block;
+	color: #AAA;
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 3px;
+}
+.footer ul li a {
+	color: #666;
+	padding-left: 1px;
+}
+.footer .powered {
+	position: absolute;
+	bottom: 28px;
+	text-align: right;
+	right: 0px;
+	display: block;
+	overflow: hidden;
+	height: 38px;
+	float: right;
+	line-height: 19px;
+	margin: 0;
+	color: #CCC;
+}
+
+#login_box {
+	width: 250px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
